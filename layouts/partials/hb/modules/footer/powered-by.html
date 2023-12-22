@@ -9,7 +9,4 @@
   {{- range $sites }}
     {{- $links = $links | append (printf $format .url .title .title) }}
   {{- end }}
-  <li class="mt-2">
-    Built with ❤️ from {{ delimit $links ", " " and " | safeHTML }}.
-  </li>
 {{- end -}}
