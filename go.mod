@@ -1,4 +1,4 @@
-module github.com/hbstack/footer
+module github.com/jobcher/footer
 
 go 1.18
 
